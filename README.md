@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 
 - git clone https://github.com/azamsyedmohd/Task-Project.git
-- cd yourproject
+- cd task-project
 - npm install
 - npm run dev
 - The project should now be running at http://localhost:5173 (default Vite server port).
