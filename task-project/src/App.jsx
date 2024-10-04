@@ -1,5 +1,11 @@
+import TaskManager from "./components/TaskManager";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TaskManager />
+    </>
+  );
 }
 
 export default App;
