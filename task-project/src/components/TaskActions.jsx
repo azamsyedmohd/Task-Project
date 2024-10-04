@@ -11,7 +11,7 @@ const TaskActions = ({ tasks, setTasks }) => {
         <AddNew setOpen={setOpen} />
         <Clear setTasks={setTasks} />
       </section>
-      {open && <Task tasks={tasks} setTasks={setTasks} />}
+      {open && <Task tasks={tasks} setTasks={setTasks} setOpen={setOpen} />}
     </>
   );
 };

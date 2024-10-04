@@ -4,6 +4,7 @@ const AllTasks = ({ tasks, setTasks }) => {
   return (
     <>
       <article>
+        <p className="italic text-xl mb-6 text-blue-500">Showing All Tasks</p>
         {tasks.map((task) => (
           <ShowTask
             task={task}

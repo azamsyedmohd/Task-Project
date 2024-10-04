@@ -8,11 +8,29 @@ const ShowTask = ({ task, setTasks, tasks }) => {
   };
   return (
     <>
-      <section className="flex flex-row gap-2">
-        <input type="text" value={task?.day} />
-        <input type="text" value={task?.start} />
-        <input type="text" value={task?.end} />
-        <TiDelete onClick={() => handleDelete(task?.id)} />
+      <section className="flex md:flex-row flex-col gap-2 mb-5">
+        <input
+          type="text"
+          value={task?.day}
+          className="bg-gray-200 py-2 px-5 rounded-md"
+        />
+        <input
+          type="text"
+          value={task?.start}
+          className="bg-gray-200 py-2 px-5 rounded-md"
+        />
+        <input
+          type="text"
+          value={task?.end}
+          className="bg-gray-200 py-2 px-5 rounded-md"
+        />
+        <TiDelete
+          onClick={() => handleDelete(task?.id)}
+          className="w-12 h-12 hidden md:block"
+        />
+        <button className=" py-2 px-5 rounded-md block md:hidden bg-red-500 text-white">
+          Delete{" "}
+        </button>
       </section>
     </>
   );
