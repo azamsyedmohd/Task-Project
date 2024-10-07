@@ -1,4 +1,4 @@
-# 🧡 My React Project 🚀!
+# 🧡 My React Project 🚀
 This project is a web application built with React and styled using Tailwind CSS. It leverages the Vite bundler for a fast and efficient development experience.
 
 ## Tech Stack
